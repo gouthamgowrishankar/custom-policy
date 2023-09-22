@@ -1,0 +1,20 @@
+id: payload-atributes
+name: payload-atributes
+description: policy
+category: Custom
+type: custom
+resourceLevelSupported: true
+encryptionSupported: false
+standalone: true
+requiredCharacteristics: []
+providedCharacteristics: []
+configuration:
+  - propertyName: payloadSize
+    name: payload size
+    description: to log thesize of payload.
+    type: expression
+    defaultValue: 0
+    optional: true
+    sensitive: false
+    allowMultiple: false
+
